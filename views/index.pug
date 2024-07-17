@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  ul 
+    each val in messages
+      li
+        p.message= val.text
+        p.name= val.user 
+        p.date= val.added
+  div.new 
+    a(href="/new") Pin a message

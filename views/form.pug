@@ -1,0 +1,12 @@
+extends layout 
+
+block content
+    h1.heading Enter your message
+    div.form
+        <form method="POST" action="/new">
+            label(for="name") Name
+            input(type="text" id ="name" name ="username" required)
+            label(for="message") Message
+            input(type="text" id ="message" name = "messageText" required)
+            button(type="submit") Submit    
+        </form>

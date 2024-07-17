@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #00b7ff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li {
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  min-width: 150px;
+}
+
+.message {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.name {
+  margin-left: auto;
+}
+.date {
+  margin-left: auto;
+}
+
+.new {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 5px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(65, 140, 221);
+  font-weight: bold;
+  color: white;
+}
+input {
+  font-size: large;
+}
+.error {
+  color: white;
+}
